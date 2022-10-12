@@ -1,12 +1,6 @@
-this is a bare bones portfolio project:
 
-manual docker:
-adminer + mysql
-backup db, insert new data etc.
+https://medium.com/@etiennerouzeaud/play-databases-with-adminer-and-docker-53dc7789f35f
 
-manual backend, vanilla js frontend + bs.
-
-then upgrade => CI CD into Azure.
 
 
  
