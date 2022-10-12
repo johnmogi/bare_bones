@@ -5,10 +5,13 @@ https://medium.com/tech-learn-share/docker-mysql-access-denied-for-user-172-17-0
 
 <pre>
 docker exec -it 9051637c5174  mysql -uroot -p
-mysql> CREATE USER 'john'@'172.18.0.3' IDENTIFIED BY 'password';
-mysql> GRANT ALL PRIVILEGES ON *.* TO 'john'@'172.18.0.3' WITH GRANT OPTION;
+mysql> CREATE USER 'john'@'172.19.0.3' IDENTIFIED BY 'password';
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'john'@'172.19.0.3' WITH GRANT OPTION;
 mysql> flush privileges; 
 mysql> exit
 </pre>
 
 in the above example the default user is - john with 'password'
+
+https://stackoverflow.com/questions/39555650/error-in-file-docker-compose-yml-service-volumes-must-be-a-mapping-not-a
+
