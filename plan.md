@@ -8,6 +8,4 @@ manual backend, vanilla js frontend + bs.
 
 then upgrade => CI CD into Azure.
 
-
-
  
